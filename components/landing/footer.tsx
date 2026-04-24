@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-3">
             <Link href="/" className="flex items-center gap-2 font-bold text-lg">
               <span className="text-2xl">🐌</span>
-              <span>달팽이스쿨</span>
+              <span>달팽이멤버십</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               우리는 365일간,
@@ -70,7 +70,7 @@ export function Footer() {
 
         <div className="mt-12 pt-6 border-t border-brand-line flex flex-col sm:flex-row justify-between gap-3 text-xs text-muted-foreground">
           <p>
-            © {new Date().getFullYear()} 달팽이스쿨 · 사업자 604-02-95735 (스토리팜)
+            © {new Date().getFullYear()} 달팽이멤버십 · 사업자 604-02-95735 (스토리팜)
           </p>
           <p>전북 완주군 소양면 해월신왕길 92</p>
         </div>

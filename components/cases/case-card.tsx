@@ -16,7 +16,7 @@ type Props = {
 
 const CATEGORY_LABEL = {
   course: "빌더코스",
-  school: "달팽이스쿨",
+  school: "달팽이멤버십",
   hackathon: "해커톤",
 } as const;
 

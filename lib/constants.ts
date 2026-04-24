@@ -1,7 +1,7 @@
-// 🐌 달팽이스쿨 v6 사이트 상수
+// 🐌 달팽이멤버십 v6 사이트 상수
 
 export const SITE = {
-  name: "달팽이스쿨",
+  name: "달팽이멤버십",
   tagline: "누구나 할 순 있지만, 아무나 할 순 없습니다.",
   description:
     "1년간 12개의 서비스를 함께 만드는 멤버십. 빌더코스에서 먼저 만나봐요. 🐌",
@@ -30,7 +30,7 @@ export const DECLARATIONS = {
   builderIdentity:
     "우리는 한날 한시에 모여\n서로 다른 직군의 사람들과\n각자 자신만의 서비스를 만들고 배포합니다.",
   launchOnly:
-    "달팽이스쿨 첫 번째 프로그램으로\n빌더코스를 런칭합니다. 오직 1개.",
+    "달팽이멤버십 첫 번째 프로그램으로\n빌더코스를 런칭합니다. 오직 1개.",
 } as const;
 
 // 3트랙 커리큘럼
@@ -90,7 +90,7 @@ export type CourseId = keyof typeof COURSES;
 export const WAITLIST_TARGET_LABEL = {
   course_standard: "빌더 기본 (6시간)",
   course_premium: "빌더 프리미엄 (1박2일)",
-  school: "달팽이스쿨 1년 멤버십",
+  school: "달팽이멤버십 1년 멤버십",
 } as const;
 
 export const COHORT = {

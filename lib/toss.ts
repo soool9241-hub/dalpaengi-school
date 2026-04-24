@@ -40,5 +40,5 @@ export function orderName(courseType: string) {
       : courseType === "standard"
       ? "빌더 기본 6시간"
       : "빌더 기초 3시간";
-  return `달팽이스쿨 · ${label}`;
+  return `달팽이멤버십 · ${label}`;
 }

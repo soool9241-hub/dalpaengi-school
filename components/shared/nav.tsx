@@ -32,7 +32,7 @@ export function Nav() {
       <div className="container-wide flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <span className="text-2xl">🐌</span>
-          <span>달팽이스쿨</span>
+          <span>달팽이멤버십</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
@@ -59,7 +59,7 @@ export function Nav() {
               <SheetHeader>
                 <SheetTitle className="flex items-center gap-2">
                   <span className="text-2xl">🐌</span>
-                  <span>달팽이스쿨</span>
+                  <span>달팽이멤버십</span>
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-2 mt-6 px-4">

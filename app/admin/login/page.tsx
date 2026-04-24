@@ -46,7 +46,7 @@ export default function AdminLoginPage() {
         <div className="text-center space-y-2">
           <div className="text-4xl">🔐</div>
           <h1 className="text-xl font-bold">관리자 로그인</h1>
-          <p className="text-xs text-muted-foreground">달팽이스쿨 Admin</p>
+          <p className="text-xs text-muted-foreground">달팽이멤버십 Admin</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

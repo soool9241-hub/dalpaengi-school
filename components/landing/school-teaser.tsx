@@ -16,7 +16,7 @@ export function SchoolTeaser() {
           함께 만드는 멤버십
         </h2>
         <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-          달팽이스쿨은 빌더코스 수료자를 우선 초대하는 1년 멤버십이에요.
+          달팽이멤버십은 빌더코스 수료자를 우선 초대하는 1년 멤버십이에요.
           <br />
           빌더 기본 · 프리미엄 수강자에게는 멤버십 자격이 자동 부여돼요.
         </p>

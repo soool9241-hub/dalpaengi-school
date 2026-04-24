@@ -8,7 +8,7 @@ import { createServerClient } from "@/lib/supabase/server";
 
 export const metadata = {
   title: "함께 만들었던 이야기들",
-  description: "달팽이스쿨 · 빌더코스에서 함께 만든 서비스 사례",
+  description: "달팽이멤버십 · 빌더코스에서 함께 만든 서비스 사례",
 };
 
 export const dynamic = "force-dynamic";

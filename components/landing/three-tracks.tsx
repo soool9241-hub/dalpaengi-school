@@ -8,7 +8,7 @@ export function ThreeTracks() {
       <div className="container-normal space-y-12">
         <div className="text-center space-y-3">
           <p className="text-sm text-muted-foreground tracking-widest uppercase">
-            달팽이스쿨 3트랙
+            달팽이멤버십 3트랙
           </p>
           <h2 className="headline-md">
             우리가 1년간 함께 훈련하는

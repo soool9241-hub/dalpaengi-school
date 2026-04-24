@@ -5,7 +5,7 @@ import { ApplyForm } from "@/components/apply/apply-form";
 
 export const metadata = {
   title: "빌더 기초 신청",
-  description: "달팽이스쿨 빌더 기초 1기 신청 폼 (3시간 체험형)",
+  description: "달팽이멤버십 빌더 기초 1기 신청 폼 (3시간 체험형)",
 };
 
 export default function ApplyPage() {

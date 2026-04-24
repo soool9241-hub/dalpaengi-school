@@ -42,7 +42,7 @@ export default function SchoolPage() {
               함께 만드는 멤버십
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              달팽이스쿨은 빌더코스 수료자를 우선 초대하는 1년 멤버십이에요.
+              달팽이멤버십은 빌더코스 수료자를 우선 초대하는 1년 멤버십이에요.
               <br />
               빌더 기본 · 프리미엄 수강자에게는 멤버십 자격이 자동 부여돼요.
             </p>
@@ -54,7 +54,7 @@ export default function SchoolPage() {
           <div className="container-normal">
             <div className="text-center mb-10 space-y-2">
               <p className="text-sm text-muted-foreground tracking-widest uppercase">
-                What is 달팽이스쿨
+                What is 달팽이멤버십
               </p>
               <h2 className="headline-md">매달 하나씩, 같이 만들어요</h2>
             </div>

@@ -1,4 +1,4 @@
--- 🐌 달팽이스쿨 Supabase 스키마 v6 (6개 테이블)
+-- 🐌 달팽이멤버십 Supabase 스키마 v6 (6개 테이블)
 -- https://zujmishjfpmyjuipncby.supabase.co → SQL Editor에서 통째로 실행
 -- 핵심: 3단 코스(basic/standard/premium) + 통합 대기자 + 멤버십 자격
 

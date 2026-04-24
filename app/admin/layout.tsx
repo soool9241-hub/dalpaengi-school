@@ -24,7 +24,7 @@ export default async function AdminLayout({
         <div className="container-wide flex items-center justify-between h-14">
           <Link href="/admin" className="flex items-center gap-2 font-bold text-sm">
             <span className="text-lg">🐌</span>
-            <span>달팽이스쿨 Admin</span>
+            <span>달팽이멤버십 Admin</span>
           </Link>
           <nav className="flex items-center gap-1 text-sm">
             <Link href="/admin" className="px-3 py-1 rounded hover:bg-muted">

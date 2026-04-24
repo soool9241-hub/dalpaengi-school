@@ -33,7 +33,7 @@ async function getData() {
 const TARGET_LABEL: Record<string, string> = {
   course_standard: "빌더 기본",
   course_premium: "빌더 프리미엄",
-  school: "달팽이스쿨",
+  school: "달팽이멤버십",
 };
 
 const MEMBERSHIP_LABEL: Record<string, string> = {

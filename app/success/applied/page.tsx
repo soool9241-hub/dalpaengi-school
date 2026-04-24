@@ -7,7 +7,7 @@ import { SITE } from "@/lib/constants";
 
 export const metadata = {
   title: "대기자 등록 완료",
-  description: "달팽이스쿨 대기자로 등록되었어요",
+  description: "달팽이멤버십 대기자로 등록되었어요",
 };
 
 // 스쿨/기본/프리미엄 대기자 공통 완료 페이지

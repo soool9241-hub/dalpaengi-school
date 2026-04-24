@@ -43,7 +43,7 @@ export default async function AdminDashboard() {
       <div>
         <h1 className="text-2xl font-bold">대시보드</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          달팽이스쿨 운영 현황 한눈에
+          달팽이멤버십 운영 현황 한눈에
         </p>
       </div>
 
