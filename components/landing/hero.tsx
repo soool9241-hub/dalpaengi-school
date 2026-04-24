@@ -24,9 +24,9 @@ export function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed">
-          1년간 12개의 서비스를 함께 만드는 멤버십.
+          한날 한시에 모여, 각자의 서비스를 만들고 배포합니다.
           <br />
-          먼저 빌더코스에서 한 번 만나봐요.
+          지금, 빌더코스 1기 모집 중.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center pt-4">

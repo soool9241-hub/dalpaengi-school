@@ -57,7 +57,7 @@ export default function PremiumCoursePage() {
     },
     {
       time: "Day 2 · 17:00~18:00",
-      title: "발표 · 졸업 · 평생 멤버십 인증",
+      title: "발표 · 졸업 · 특별 혜택 인증",
     },
   ];
 
@@ -69,7 +69,7 @@ export default function PremiumCoursePage() {
           badge="SOLD OUT · 100인 한정"
           badgeColor="red"
           title="1박 2일, 최적화된 환경에서 처음부터 끝까지"
-          subtitle="솔 1:1 피드백 · 오프라인 집중 · 평생 멤버십 자격"
+          subtitle="솔 1:1 피드백 · 오프라인 집중 · 100인 한정 프리미엄 혜택"
           tagline={`${pre.duration} · ${pre.name}`}
         />
 
@@ -105,7 +105,7 @@ export default function PremiumCoursePage() {
                   {pre.regularPrice.toLocaleString()}원
                 </p>
                 <p className="text-xs opacity-80">
-                  결제 확인 즉시 달팽이스쿨 평생 멤버십 자격 자동 부여
+                  결제 확인 즉시 결제 확인 즉시 평생 특별 혜택 부여
                 </p>
               </div>
               <div className="inline-flex flex-col gap-3 w-full max-w-sm mx-auto">

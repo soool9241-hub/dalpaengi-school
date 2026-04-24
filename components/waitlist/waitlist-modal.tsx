@@ -20,9 +20,13 @@ type Props = {
 // v6 SOLD OUT 모달 - "100인 한정" FOMO + 대기자 폼
 export function WaitlistModal({ open, onOpenChange, targetType }: Props) {
   const [done, setDone] = useState<{ position: number } | null>(null);
-  const isPremium = targetType === "course_premium";
   const label = WAITLIST_TARGET_LABEL[targetType];
-  const membership = isPremium ? "평생 멤버십" : "1년 멤버십";
+  const perkLabel =
+    targetType === "course_premium"
+      ? "프리미엄 100인 한정 혜택"
+      : targetType === "course_standard"
+      ? "기본 100인 한정 혜택"
+      : "오픈 우선 안내";
 
   return (
     <Dialog open={open} onOpenChange={(v) => { onOpenChange(v); if (!v) setDone(null); }}>
@@ -39,7 +43,7 @@ export function WaitlistModal({ open, onOpenChange, targetType }: Props) {
             100인만 수강할 수 있습니다
           </DialogTitle>
           <DialogDescription className="text-center">
-            {label} · {membership} 자격 연계
+            {label} · {perkLabel}
           </DialogDescription>
         </DialogHeader>
 
@@ -72,7 +76,7 @@ export function WaitlistModal({ open, onOpenChange, targetType }: Props) {
             <div className="rounded-xl bg-brand-green/5 border border-brand-green/20 p-4 space-y-2">
               <p className="text-xs text-muted-foreground">이 프로그램의 특별 혜택</p>
               <p className="text-base font-bold text-brand-green-dark">
-                🎁 달팽이스쿨 {membership} 자격 자동 부여
+                🎁 100인 한정 · 수강자 전용 특별 혜택
               </p>
               <p className="text-xs text-muted-foreground leading-relaxed">
                 수요가 차면 오픈 공지드릴게요. 아래 폼으로 먼저 등록해 주세요.

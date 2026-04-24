@@ -1,4 +1,4 @@
-// 철학 3줄 - 3대 핵심 카피 반복 노출
+// 철학 2줄 - 빌더코스 중심 · 멤버십 서사는 추후 활성
 export function Philosophy() {
   return (
     <section className="section-padding bg-white">
@@ -6,12 +6,6 @@ export function Philosophy() {
         <div className="text-center">
           <p className="headline-md">&ldquo;누구나 할 순 있지만,</p>
           <p className="headline-md">아무나 할 순 없습니다.&rdquo;</p>
-        </div>
-
-        <div className="text-center">
-          <p className="headline-md">1년간 12개의 서비스.</p>
-          <p className="headline-md">내 손으로 직접 만들고,</p>
-          <p className="headline-md">내가 사용합니다.</p>
         </div>
 
         <div className="text-center">

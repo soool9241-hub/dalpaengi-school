@@ -4,8 +4,7 @@ type Props = {
   kind: "pension" | "yearly" | "lifetime";
 };
 
-// v6 멤버십 자격 보상 강조 섹션
-// 기초 = 펜션 할인권 · 기본 = 1년 멤버십 · 프리미엄 = 평생 멤버십
+// 3단 코스 보상 섹션 - 멤버십 서사는 추후 재활성, 지금은 "특별 혜택" 톤
 export function CourseBonus({ kind }: Props) {
   if (kind === "pension") {
     return (
@@ -30,22 +29,21 @@ export function CourseBonus({ kind }: Props) {
   }
 
   const isLifetime = kind === "lifetime";
-  const label = isLifetime ? "평생" : "1년";
+  const title = isLifetime ? "프리미엄 100인 한정" : "기본 100인 한정";
   const emoji = isLifetime ? "🌟" : "💎";
   const benefits = isLifetime
     ? [
-        "1년 멤버십 전체 혜택",
-        "이후 모든 기수 재참여 무료",
-        "솔 1:1 연 2회 전략 상담",
-        "신규 프로그램 베타 우선 초대",
+        "솔 1:1 연 2회 전략 상담 평생 제공",
+        "이후 열리는 모든 빌더 프로그램 우선 초대",
+        "신규 프로그램 베타 우선 참여",
         "달팽이 OS SaaS 얼리 액세스",
-        "영구 재참여 가능",
+        "프리미엄 졸업자 전용 네트워크",
       ]
     : [
-        "월 1회 라이브 워크샵 (12개월 12개 서비스)",
-        "주간 커뮤니티 Q&A",
-        "녹화본 영구 소장",
-        "멤버 전용 디스코드 커뮤니티",
+        "이후 열리는 빌더 프로그램 우선 초대",
+        "솔 피드백 세션 우선 참여권",
+        "기본 졸업자 전용 커뮤니티",
+        "매주 줌 라이브 우선 공지",
       ];
 
   return (
@@ -53,18 +51,18 @@ export function CourseBonus({ kind }: Props) {
       <div className="container-narrow">
         <div className="rounded-3xl bg-gradient-to-br from-brand-green/10 via-brand-green/5 to-transparent border-2 border-brand-green/30 p-8 md:p-12 text-center space-y-6">
           <Badge className="bg-brand-green-dark text-white border-0 tracking-widest">
-            ⭐ 수강자 전용 자격
+            ⭐ 수강자 전용 특별 혜택
           </Badge>
           <div>
             <p className="text-4xl md:text-5xl mb-3">{emoji}</p>
             <h2 className="text-2xl md:text-4xl font-bold leading-tight">
-              달팽이스쿨 {label} 멤버십
+              {title}
               <br />
-              <span className="text-brand-green-dark">자격 자동 부여</span>
+              <span className="text-brand-green-dark">특별 혜택</span>
             </h2>
           </div>
           <p className="text-sm text-muted-foreground">
-            수강료 결제 확인 즉시 자격이 부여됩니다 · 선착순 100명 한정
+            수강 확정 후 자동 부여 · 선착순 100명만
           </p>
 
           <ul className="text-left max-w-md mx-auto space-y-2 pt-2">
@@ -75,10 +73,6 @@ export function CourseBonus({ kind }: Props) {
               </li>
             ))}
           </ul>
-
-          <p className="pt-4 text-xs text-muted-foreground italic">
-            결제 완료 웹훅이 /api/membership/grant를 자동 호출하여 자격을 등록합니다.
-          </p>
         </div>
       </div>
     </section>

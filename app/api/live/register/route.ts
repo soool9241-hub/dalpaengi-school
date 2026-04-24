@@ -51,7 +51,7 @@ export async function POST(req: Request) {
       await sendSms(parsed.data.phone, "live_welcome", {
         name: parsed.data.name,
         date: parsed.data.live_date,
-        link: "https://instagram.com/dalpaengi.school",
+        link: "당일 카톡 발송", // 줌 링크는 당일 오후 카톡으로 안내
       });
     } catch (smsErr) {
       console.error("[live/register] sms:", smsErr);

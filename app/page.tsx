@@ -8,17 +8,16 @@ import { ServiceGoals } from "@/components/landing/service-goals";
 import { ThreeTracks } from "@/components/landing/three-tracks";
 import { ThreeContents } from "@/components/landing/three-contents";
 import { Members } from "@/components/landing/members";
-import { Roadmap } from "@/components/landing/roadmap";
 import { Host } from "@/components/landing/host";
 import { HostProof } from "@/components/landing/host-proof";
 import { CoursesTeaser } from "@/components/landing/courses-teaser";
-import { SchoolTeaser } from "@/components/landing/school-teaser";
 import { LiveTeaser } from "@/components/landing/live-teaser";
 import { Voices } from "@/components/landing/voices";
 import { FAQ } from "@/components/landing/faq";
 import { Footer } from "@/components/landing/footer";
 
-// 메인 랜딩 v6 전체 섹션 조립 (감정 곡선 순서)
+// 메인 랜딩 - 빌더코스 3단 중심 (멤버십 서사는 추후 재활성)
+// 제거된 섹션: Roadmap (12개월 여정), SchoolTeaser (멤버십 대기자)
 export default function Home() {
   return (
     <>
@@ -31,11 +30,9 @@ export default function Home() {
         <ThreeTracks />
         <ThreeContents />
         <Members />
-        <Roadmap />
         <Host />
         <HostProof />
         <CoursesTeaser />
-        <SchoolTeaser />
         <LiveTeaser />
         <Voices />
         <FAQ />

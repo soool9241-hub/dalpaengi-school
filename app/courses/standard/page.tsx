@@ -84,7 +84,7 @@ export default function StandardCoursePage() {
                   {std.regularPrice.toLocaleString()}원
                 </p>
                 <p className="text-xs opacity-80">
-                  결제 확인 즉시 달팽이스쿨 1년 멤버십 자격 자동 부여
+                  결제 확인 즉시 결제 확인 즉시 100인 한정 특별 혜택 부여
                 </p>
               </div>
               <div className="inline-flex flex-col gap-3 w-full max-w-sm mx-auto">

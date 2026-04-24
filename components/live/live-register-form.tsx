@@ -78,7 +78,9 @@ export function LiveRegisterForm({ liveDate, liveTopic }: Props) {
         <div className="text-3xl">🎉</div>
         <p className="font-semibold">신청 완료!</p>
         <p className="text-sm text-muted-foreground">
-          📅 {liveDate} 20:00 · 카톡으로 링크 보내드릴게요
+          📅 {liveDate} 20:00 · Zoom
+          <br />
+          당일 오후 카톡(sool9241)으로 줌 링크 발송
         </p>
         <Button
           variant="outline"
@@ -134,7 +136,7 @@ export function LiveRegisterForm({ liveDate, liveTopic }: Props) {
         {submitting ? "신청 중..." : "🐌 라이브 신청하기"}
       </Button>
       <p className="text-xs text-muted-foreground text-center">
-        당일 오후에 한 번 더 알림 드릴게요 · 무료
+        줌 링크는 당일 오후 카톡으로 발송 · 무료
       </p>
     </form>
   );

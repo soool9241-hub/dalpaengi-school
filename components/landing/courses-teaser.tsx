@@ -22,9 +22,9 @@ export function CoursesTeaser() {
           <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
             서로 다른 직군의 사람들과 함께.
             <br />
-            1년은 길어요. 체험형 빌더 기초에서 먼저 만나보고,
+            체험형 빌더 기초에서 먼저 만나보고,
             <br />
-            이어서 하고 싶으면 기본 · 프리미엄 대기자로 와요.
+            더 깊게 만들고 싶으면 기본 · 프리미엄 대기자로 와요.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export function CoursesTeaser() {
               <span className="text-muted-foreground text-sm">원</span>
             </div>
             <p className="text-[11px] text-brand-green-dark font-semibold">
-              🎁 달팽이스쿨 1년 멤버십 자격
+              🎁 100인 한정 · 특별 혜택
             </p>
             <div className="flex-1" />
             <Button asChild className="rounded-full w-full">
@@ -108,7 +108,7 @@ export function CoursesTeaser() {
               <span className="text-muted-foreground text-sm">원</span>
             </div>
             <p className="text-[11px] text-brand-green-dark font-semibold">
-              🌟 달팽이스쿨 평생 멤버십 자격
+              🌟 100인 한정 · 프리미엄 특별 혜택
             </p>
             <div className="flex-1" />
             <Button asChild className="rounded-full w-full">

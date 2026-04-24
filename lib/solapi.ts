@@ -29,15 +29,15 @@ export const smsTemplates = {
     `카톡: sool9241`,
 
   live_welcome: (v: SmsVars) =>
-    `[달팽이스쿨 라이브] ${v.name}님 신청 완료 🐌\n\n` +
-    `📅 ${v.date} 20:00\n` +
-    `🔗 ${v.link}\n\n` +
-    `당일 오후에 한 번 더 알림 드릴게요.`,
+    `[달팽이스쿨 줌 라이브] ${v.name}님 신청 완료 🐌\n\n` +
+    `📅 ${v.date} 20:00 · Zoom\n` +
+    `🔗 줌 링크는 당일 오후 카톡(sool9241)으로 발송\n\n` +
+    `자동화 시스템 구조 · 실시간 시연`,
 
   live_reminder: (v: SmsVars) =>
-    `[달팽이스쿨 라이브] 오늘 저녁 8시예요 🐌\n\n` +
+    `[달팽이스쿨 줌 라이브] 오늘 저녁 8시예요 🐌\n\n` +
     `📺 ${v.link}\n\n` +
-    `편하게 보시고 질문 남겨주세요!`,
+    `화면 공유 시연 + Q&A · 편하게 참여하세요.`,
 
   course_reminder_d1: (v: SmsVars) =>
     `[달팽이스쿨] ${v.name}님, 내일 빌더코스 ${v.course}예요 🐌\n\n` +
