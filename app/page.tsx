@@ -2,6 +2,7 @@ import { Nav } from "@/components/shared/nav";
 import { FloatingCTA } from "@/components/shared/floating-cta";
 import { KakaoChatBtn } from "@/components/shared/kakao-chat-btn";
 import { Hero } from "@/components/landing/hero";
+import { AiBuildingDayBanner } from "@/components/landing/ai-building-day-banner";
 import { Philosophy } from "@/components/landing/philosophy";
 import { Declaration365 } from "@/components/landing/declaration-365";
 import { ServiceGoals } from "@/components/landing/service-goals";
@@ -24,6 +25,7 @@ export default function Home() {
       <Nav />
       <main className="flex-1">
         <Hero />
+        <AiBuildingDayBanner />
         <Philosophy />
         <Declaration365 />
         <ServiceGoals />

@@ -31,7 +31,7 @@ export function FloatingCTA() {
           size="lg"
           className="w-full rounded-full shadow-lg bg-foreground text-background hover:bg-foreground/90"
         >
-          <Link href="/apply">🐌 빌더 기초 신청하기</Link>
+          <Link href="/live#apply">🔴 5/24 AI 빌딩 데이 · 선착순 신청</Link>
         </Button>
       </div>
     </div>
